@@ -1,5 +1,9 @@
+# Some useful libraries you've probably used have already been imported for you
 import streamlit as st
 import os
+import pandas as pd
+import ssl
+import matplotlib.pyplot as plt
 
 # Page setup
 tab_name = os.path.basename(__file__) # Gets file name
